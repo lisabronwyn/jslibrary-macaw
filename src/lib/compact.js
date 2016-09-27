@@ -1,11 +1,11 @@
 const compact = arr => {
   const newArr = []
 
-  arr.map( (x, i) => {
-    if( !!x === true ) {
-      newArr.push( x )
+  for ( let i = 0; i < arr.length; i++ ) {
+    if( !!arr[ i ] === true ) {
+      newArr.push( arr[ i ] )
     }
-  })
+  }
 
   return newArr
 }
