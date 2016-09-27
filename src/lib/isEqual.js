@@ -1,6 +1,3 @@
-// let obj = { 'a': 1, 'b': 2 }
-// let other = { 'a': 1, 'b': 2 }
-
 const isEqual = ( value, compare ) => {
 
   if ( value.length != compare.length ) { return false }
@@ -26,7 +23,7 @@ const isEqual = ( value, compare ) => {
 
     return counter == value.length ? true : false
   } else {
-    
+
     return counter == Object.keys( value ).length ? true : false
   }
 }
