@@ -1,7 +1,7 @@
 import compact from '../lib/compact'
 import expect from 'expect.js'
 
-describe.only('compact', () => {
+describe('compact', () => {
   it('Creates an array with all falsey values removed. The values false, null, 0, "", undefined, and NaN are falsey.', () => {
     expect( compact( [ false, null, 0, "", undefined, NaN ] ) ).to.eql( [] )
   })
