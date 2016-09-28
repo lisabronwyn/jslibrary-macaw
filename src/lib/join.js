@@ -1,4 +1,4 @@
-const join = ( arr, sep, output = '' ) => {
+export default ( arr, sep, output = '' ) => {
   for( let i = 0; i < arr.length; i++ ) {
     if ( i === arr.length - 1 ) {
       output += `${arr[i]}`
@@ -8,5 +8,3 @@ const join = ( arr, sep, output = '' ) => {
   }
   return output
 }
-
-export default join

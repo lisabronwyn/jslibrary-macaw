@@ -1,11 +1,11 @@
-const isEqual = ( value, compare, check, counter = 0 ) => {
+export default ( value, compare, check, counter = 0 ) => {
 
   if ( value.length != compare.length ) { return false }
 
   for ( let k in value ) {
     check = false
 
-    for ( let key in compare ) { 
+    for ( let key in compare ) {
       if ( Array.isArray( value ) && Array.isArray( compare ) ) {
         value[ k ] === compare[ key ] ? check = true : ''
       } else {
@@ -24,5 +24,3 @@ const isEqual = ( value, compare, check, counter = 0 ) => {
     return counter == Object.keys( value ).length ? true : false
   }
 }
-
-export default isEqual

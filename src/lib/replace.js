@@ -1,5 +1,4 @@
-
-const replace = (str, pat, replace) => {
+export default  (str, pat, replace) => {
   let result = ""
   let indexFound = 0
   let j = 0
@@ -20,17 +19,6 @@ const replace = (str, pat, replace) => {
     }
 
   }
-  // for (let i = 0; i < pat.length; i++) {
-  //   for (j = 0; j < str.length; j++) {
-  //     if (pat[i] != str[j]) {
-  //       result.push(str[j])
-  //     }
-  //
-  //   }
-  //
-  // }
 
   return result
 }
-
-export default replace

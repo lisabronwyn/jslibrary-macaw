@@ -1,4 +1,4 @@
-const pick = ( obj, arr, newObj = {} ) => {
+export default ( obj, arr, newObj = {} ) => {
   for ( let i of arr ) {
     for ( let key in obj ) {
       if ( i  === key  ) {
@@ -9,5 +9,3 @@ const pick = ( obj, arr, newObj = {} ) => {
 
   return newObj
 }
-
-export default pick

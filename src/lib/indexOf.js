@@ -1,4 +1,4 @@
-const indexOf = (arr, x, index = 0) => {
+export default (arr, x, index = 0) => {
   for (let i = index; i < arr.length; i++){
     if (arr[i] == x){
       return i
@@ -7,5 +7,3 @@ const indexOf = (arr, x, index = 0) => {
 
   return -1
 }
-
-export default indexOf

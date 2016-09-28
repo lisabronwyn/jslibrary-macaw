@@ -1,5 +1,5 @@
-import pick from '../lib/pick'
 import expect from 'expect.js'
+import bland from '../bland'
 
 describe('pick', () => {
   const contact = {
@@ -11,20 +11,20 @@ describe('pick', () => {
   }
 
   it('Creates an object composed of the picked object properties.', () => {
-    expect( pick( contact, [ "firstName", "lastName" ] ) ).to.eql( {
+    expect( bland.pick( contact, [ "firstName", "lastName" ] ) ).to.eql( {
       "firstName": "Devon",
       "lastName": "Wesley"
     })
   })
 
   it('Creates an object composed of the picked object properties.', () => {
-    expect( pick( contact, [ "city", "state" ] ) ).to.eql( {
+    expect( bland.pick( contact, [ "city", "state" ] ) ).to.eql( {
       "city": "Oakland",
       "state": "CA"
     })
   })
 
   it('Creates an object composed of the picked object properties.', () => {
-    expect( pick( contact, [ "address" ] ) ).to.eql( { "address":  "2310 65th ave" })
+    expect( bland.pick( contact, [ "address" ] ) ).to.eql( { "address":  "2310 65th ave" })
   })
 })
