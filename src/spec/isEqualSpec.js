@@ -1,7 +1,7 @@
 import isEqual from '../lib/isEqual'
 import expect from 'expect.js'
 
-describe.only( 'isEqual', () => {
+describe( 'isEqual', () => {
 
   it( 'Performs a deep comparison between two values to determine if the Object are equal', () => {
     let obj = { 'a': 1, 'b': 2 }
