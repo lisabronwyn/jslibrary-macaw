@@ -1,6 +1,4 @@
-const pick = ( obj, arr ) => {
-  let newObj = {}
-
+const pick = ( obj, arr, newObj = {} ) => {
   for ( let i of arr ) {
     for ( let key in obj ) {
       if ( i  === key  ) {

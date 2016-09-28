@@ -1,11 +1,11 @@
+import { expect } from 'chai'
 
-const expect = require('chai').expect
 import fromPairs from "../lib/fromPairs"
 
 //import expect from "expect.js"
 
 
-describe.only("fromPairs", () => {
+describe("fromPairs", () => {
 	it ("It takes an array of arrays and creates an Object with a key and value based on the first two elements of those arrays", () => {
 		expect (fromPairs([['a',2],[5,"Muffins"]])).to.eql({'a':2 , 5:"Muffins"})
 	})

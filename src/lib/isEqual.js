@@ -1,14 +1,11 @@
-const isEqual = ( value, compare ) => {
+const isEqual = ( value, compare, check, counter = 0 ) => {
 
   if ( value.length != compare.length ) { return false }
 
-  let check
-  let counter = 0
-
-  for ( let k in value ) { // k => 2
+  for ( let k in value ) {
     check = false
 
-    for ( let key in compare ) { // key => 2
+    for ( let key in compare ) { 
       if ( Array.isArray( value ) && Array.isArray( compare ) ) {
         value[ k ] === compare[ key ] ? check = true : ''
       } else {

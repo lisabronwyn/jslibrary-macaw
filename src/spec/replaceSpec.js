@@ -1,5 +1,5 @@
-const expect = require('chai').expect
-
+import { expect } from 'chai'
+ 
 import replace from '../lib/replace.js'
 
 describe('replace', () => {
