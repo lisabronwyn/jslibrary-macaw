@@ -1,4 +1,4 @@
-const fill = (ourArray, val, begin = 0, end = ourArray.length)=> {
+export default (ourArray, val, begin = 0, end = ourArray.length)=> {
 
   let result = []
   for (let i = 0; i < ourArray.length; i++) {
@@ -10,5 +10,3 @@ const fill = (ourArray, val, begin = 0, end = ourArray.length)=> {
   }
   return result
 }
-
-export default fill

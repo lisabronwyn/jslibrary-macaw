@@ -1,4 +1,4 @@
-const fromPairs = arr => {
+export default ( arr ) => {
   let result = {}
   for (let i of arr) {
     result[i[0]] = i[1]
@@ -6,5 +6,3 @@ const fromPairs = arr => {
 
 	return result
 }
-
-export default fromPairs

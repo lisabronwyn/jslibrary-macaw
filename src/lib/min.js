@@ -1,4 +1,4 @@
-const min = arr => {
+export default ( arr ) => {
 
 	let num = arr[0]
 	for (let i = 1; i < arr.length; i++) {
@@ -12,5 +12,3 @@ const min = arr => {
 
 	return num
 }
-
-export default min

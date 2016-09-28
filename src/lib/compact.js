@@ -1,4 +1,4 @@
-const compact = arr => {
+export default ( arr ) => {
   const newArr = []
 
   for ( let i = 0; i < arr.length; i++ ) {
@@ -9,5 +9,3 @@ const compact = arr => {
 
   return newArr
 }
-
-export default compact
