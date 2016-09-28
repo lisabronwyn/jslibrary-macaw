@@ -1,5 +1,4 @@
-
-const concat = (array, ...values) => {
+export default (array, ...values) => {
   let result = []
   Array.isArray(array) ? result = array : result.push(array)
   for(let value of values) {
@@ -13,5 +12,3 @@ const concat = (array, ...values) => {
   }
   return result
 }
-
-export default concat
