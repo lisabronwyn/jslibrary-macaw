@@ -1,7 +1,7 @@
 import expect from 'expect.js'
 import bland from '../bland'
 
-describe.only( 'add', () => {
+describe( 'add', () => {
 
   it( 'Adds two numbers.', () => {
     expect( bland.add( 1, 2 ) ).to.eql( 3 )
