@@ -1,5 +1,5 @@
-const max = (arr) => {
-	
+export default ( arr ) => {
+
 	let num = arr[0]
 	for (let i = 1; i < arr.length; i++) {
 		if (arr[i] > num){
@@ -12,5 +12,3 @@ const max = (arr) => {
 
 	return num
 }
-
-export default max
