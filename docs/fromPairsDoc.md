@@ -1,21 +1,23 @@
 #FromPairs
 
-##fromPairs(array)
+###`fromPairs(array)`
 
-FromPairs takes an array of arrays and creates an Object based on those arrays.
+FromPairs takes an Array of key-value pairs and creates an Object based on those pairs.
+
 ###Arguments
-An Array of arrays with key-value pairs.
+
+array (Array): An Array of Arrays with key-value pairs.
 
 ###Return
 
 An Object.
 
-Example:
+###Example:
 
 ```javascript
-fromPairs([['a',2],[5,"Muffins"]]
+bland.fromPairs([['a',2],[5,"Muffins"]]
 //=> {}'a':2 , 5:"Muffins"}
 
-fromPairs([['a',2,3,22,"hike"],[5,"Muffins"]]
+bland.fromPairs([['a',2,3,22,"hike"],[5,"Muffins"]]
 //=> {}'a':2 , 5:"Muffins"}
 ```

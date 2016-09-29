@@ -1,32 +1,32 @@
 #Fill
 
-##Function Description
+###`fill(array, value, [start = 0], [end = array.length])`
 
-##fill(array, val, start = 0, end = array.length)
+Replaces elements of an existing array with the given value from start index to end index.
 
-Replaces elements of an existing array with the given value from start to end.
 ###Arguments
-Array
-Variable or value to fill the array
-Start is an optional start position in the array
-End is an optional end position in the array
+array (Array): An array to fill
+
+value: Value to fill the array
+
+start = 0 (number): An optional start index in the array
+
+end = array.length (number): An optional end index in the array
 
 ###Return
 
 It returns an array with the replaced values
 
-Example:
+###Example:
 
 ```javascript
-var array = [1, 2, 3];
-
-_.fill(array, 'a');
+bland.fill([1,2,3], 'a');
 console.log(array);
 // => ['a', 'a', 'a']
 
-_.fill(Array(3), 2);
+bland.fill(Array(3), 2);
 // => [2, 2, 2]
 
-_.fill([4, 6, 8, 10], '*', 1, 3);
+bland.fill([4, 6, 8, 10], '*', 1, 3);
 // => [4, '*', '*', 10]
 ```

@@ -1,25 +1,27 @@
-##min(arr)
+##Min
+
+###`min(array)`
 
 Computes the minimum value of array. If array is empty or falsey, undefined is returned.
 
 ###Arguments
 
-An array
+array (Array): The array to search.
 
 ###returns
 
-Returns the minimum value
+value (\*): Returns the minimum value.
 
-```
-min([9, 2, 3, 5])
+```javascript
+bland.min([9, 2, 3, 5])
 // => 2
 
-min([])
+bland.min([])
 // => undefined
 
-min([null, null])
+bland.min([null, null])
 // => undefined
 
-min([3, "2", 4])
+bland.min([3, "2", 4])
 // => "2"
 ```
