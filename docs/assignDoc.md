@@ -7,7 +7,8 @@ Assigns series of keyed values to the given Object.
 ###Arguments
 
 object(Object): The Object to modify.
-[sources](...Object): Any number of Objects to add.
+
+sources (...Object): Any number of Objects to add.
 
 ###Returns
 

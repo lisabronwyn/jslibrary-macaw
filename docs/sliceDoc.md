@@ -2,13 +2,15 @@
 
 ###`slice(array,[start=0],[end=array.length])`
 
-Creates an array taken from Array from Start to End indeces.  Negative values for start and End are treated as an offset from the end of the Array.
+Creates an array taken from Array from Start to End indices.  Negative values for start and End are treated as an offset from the end of the Array.
 
 ###Arguments
 
 array (Array): The array to slice.
-[start=0] (number): The start index.
-[end=array.length] (number): The end index.
+
+start=0 (number): The start index.
+
+end=array.length (number): The end index.
 
 ###Returns
 

@@ -7,8 +7,10 @@ Looks for pattern in a given string and replaces it with a new string.
 
 ###Arguments
 string (String): The string to modify.
-pattern (String): A pattern to search for in the string
-replacement (String): A string to replace the pattern with
+
+pattern (String): A pattern to search for in the string.
+
+replacement (String): A string to replace the pattern with.
 
 ###Return
 

@@ -7,7 +7,8 @@ Creates an array of elements split into length Size.  If array cannot be split e
 ###Arguments
 
 array (Array): The array to process.
-[size=1] (number): The length of the chunks.
+
+size=1 (number): The length of the chunks.
 
 ###Returns
 

@@ -7,7 +7,8 @@ Creates a new object composed of the properties listed in props, taken from obje
 ###Arguments
 
 object (Object): The Object to pick from.
-[props] (...(value)): The property identifiers to pick.
+
+props (...(value)): The property identifiers to pick.
 
 ###Returns
 

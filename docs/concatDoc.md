@@ -7,7 +7,8 @@ FromPairs takes an Array of key-value pairs and creates an Object based on those
 ###Arguments
 
 array (Array): An array to concatenate to.
-values: The values to concatenate.
+
+values (\*): The values to concatenate.
 
 
 ###Return

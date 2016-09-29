@@ -7,6 +7,7 @@ Adds two numbers and returns the sum.
 ###Arguments
 
 value (number): The first number to add.
+
 addend (number): The second number to add.
 
 ###Return

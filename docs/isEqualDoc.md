@@ -7,6 +7,7 @@ Compares two values to determine if they are equal.
 ###Arguments
 
 value (\*): First value to compare.
+
 other (\*): Second value to compare.
 
 ###Returns

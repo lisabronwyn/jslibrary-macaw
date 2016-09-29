@@ -7,7 +7,8 @@ Creates an array based on given array with given values removed.
 ###Arguments
 
 array (Array): The array to inspect.
-[values](...Array): The values to exclude.
+
+values (...Array): The values to exclude.
 
 ###Returns
 

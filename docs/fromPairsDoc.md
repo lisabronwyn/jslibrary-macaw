@@ -6,7 +6,7 @@ FromPairs takes an Array of key-value pairs and creates an Object based on those
 
 ###Arguments
 
-An Array of Arrays with key-value pairs.
+array (Array): An Array of Arrays with key-value pairs.
 
 ###Return
 

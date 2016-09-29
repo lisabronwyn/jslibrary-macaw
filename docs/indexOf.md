@@ -7,8 +7,10 @@ Returns the index at which value is first found in array.  If fromIndex is given
 ###Arguments
 
 array (Array): The array to search.
+
 value : The value to search for.
-[fromIndex = 0] (number) : An optional start index
+
+fromIndex = 0 (number) : An optional start index
 
 ###returns
 

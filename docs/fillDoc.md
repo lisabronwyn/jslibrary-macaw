@@ -6,9 +6,12 @@ Replaces elements of an existing array with the given value from start index to 
 
 ###Arguments
 array (Array): An array to fill
+
 value: Value to fill the array
-[start = 0] (number): An optional start index in the array
-[end = array.length] (number: An optional end index in the array
+
+start = 0 (number): An optional start index in the array
+
+end = array.length (number): An optional end index in the array
 
 ###Return
 
