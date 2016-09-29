@@ -2,9 +2,8 @@ export default ( arr, split ) => {
   if (!Array.isArray(arr)) {
     return undefined
   }
-  const newArray = []
 
-    let chunks = [],
+let chunks = [],
       i = 0,
       j = arr.length;
 
