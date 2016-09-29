@@ -20,10 +20,10 @@ other (\*): Second value to compare.
 let obj = { 'a': 1, 'b': 2 }
 let other = { 'a': 1, 'b': 2 }
 
-isEqual( obj, other )
+bland.isEqual( obj, other )
 //=> true
 
 let bluther = { 'a': 1, b: 3 }
-isEqual( obj, bluther )
+bland.isEqual( obj, bluther )
 //=> false
 ```

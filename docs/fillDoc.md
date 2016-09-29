@@ -20,13 +20,13 @@ It returns an array with the replaced values
 ###Example:
 
 ```javascript
-_.fill([1,2,3], 'a');
+bland.fill([1,2,3], 'a');
 console.log(array);
 // => ['a', 'a', 'a']
 
-_.fill(Array(3), 2);
+bland.fill(Array(3), 2);
 // => [2, 2, 2]
 
-_.fill([4, 6, 8, 10], '*', 1, 3);
+bland.fill([4, 6, 8, 10], '*', 1, 3);
 // => [4, '*', '*', 10]
 ```

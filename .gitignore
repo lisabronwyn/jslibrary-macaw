@@ -41,4 +41,4 @@ dist
 .DS_Store
 
 # Helper file with Docs formatting
-docs/helper.md
+#docs/helper.md

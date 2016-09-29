@@ -15,7 +15,7 @@ array (Array): The array to process.
 ###Example
 
 ```javascript
-compact( [ false, null, 5, 0, "", undefined, true, NaN, 'Devon' ] )
+bland.compact( [ false, null, 5, 0, "", undefined, true, NaN, 'Devon' ] )
 //=>['5, true, Devon']
 
 ```

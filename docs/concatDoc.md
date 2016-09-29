@@ -21,9 +21,9 @@ values (\*): The values to concatenate.
 Example:
 
 ```javascript
-concat([1,2,3],4,5)
+bland.concat([1,2,3],4,5)
 //=> [1,2,3,4,5]
 
-concat([1,2,3], [4], 5, ['six', 7])
+bland.concat([1,2,3], [4], 5, ['six', 7])
 //=> [1,2,3,4,5,'six',7]
 ```

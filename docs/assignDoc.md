@@ -17,10 +17,10 @@ sources (...Object): Any number of Objects to add.
 ###Example
 
 ```javascript
-onst Foo = function() { this.a = 4 }
+const Foo = function() { this.a = 4 }
 const obj2 = { 'c': 'muffins' }
 
-assign( { 'a': 0, 'c': 3 }, new Foo, obj2 )
+bland.assign( { 'a': 0, 'c': 3 }, new Foo, obj2 )
 //=>{ 'a': 4, 'c': 'muffins' }
 
 ```

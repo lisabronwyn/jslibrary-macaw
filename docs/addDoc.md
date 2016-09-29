@@ -15,7 +15,7 @@ addend (number): The second number to add.
 (number): Returns the sum.
 
 ```javascript
-add(7,3)
+bland.add(7,3)
 //=> 10
 
 ```

@@ -13,15 +13,15 @@ array (Array): The array to search.
 value (\*): Returns the minimum value.
 
 ```javascript
-min([9, 2, 3, 5])
+bland.min([9, 2, 3, 5])
 // => 2
 
-min([])
+bland.min([])
 // => undefined
 
-min([null, null])
+bland.min([null, null])
 // => undefined
 
-min([3, "2", 4])
+bland.min([3, "2", 4])
 // => "2"
 ```

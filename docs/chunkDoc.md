@@ -18,9 +18,9 @@ size=1 (number): The length of the chunks.
 
 ```javascript
 
-chunk( ['a', 'b', 'c', 'd'], 2)
+bland.chunk( ['a', 'b', 'c', 'd'], 2)
 //=>[ ['a', 'b'] , ['c', 'd'] ]
 
-chunk( ['a', 'b', 'c', 'd'], 3)
+bland.chunk( ['a', 'b', 'c', 'd'], 3)
 //=>[ ['a', 'b', 'c'], ['d'] ]
 ```

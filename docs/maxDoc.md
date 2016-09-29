@@ -13,15 +13,15 @@ array (Array): The array to search.
 value (\*): Returns the maximum value.
 
 ```javascript
-max([9, 2, 3, 5])
+bland.max([9, 2, 3, 5])
 // => 9
 
-max([])
+bland.max([])
 // => undefined
 
-max([null, null])
+bland.max([null, null])
 // => undefined
 
-max([3, 2, '4'])
+bland.max([3, 2, '4'])
 // => '4'
 ```

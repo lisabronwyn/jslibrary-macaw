@@ -17,10 +17,10 @@ fromIndex = 0 (number) : An optional start index
 (number): Returns the index where value is found.
 
 ```javascript
-indexOf([2,4,8,9,4],4)
+bland.indexOf([2,4,8,9,4],4)
 // => 4
 
-indexOf([2,4,8,9,4],4,2)
+bland.indexOf([2,4,8,9,4],4,2)
 // => 4
 
 ```

@@ -17,9 +17,9 @@ separator=',' (string): The element separator.
 ###Example
 
 ```javascript
-join(['a','b','c'])
+bland.join(['a','b','c'])
 //=>'a,b,c'
 
-join( ['a', 'b', 'c'], '~' )
+bland.join( ['a', 'b', 'c'], '~' )
 //=>'a~b~c'
 ```

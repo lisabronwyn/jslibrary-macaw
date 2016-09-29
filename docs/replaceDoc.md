@@ -19,9 +19,9 @@ replacement (String): A string to replace the pattern with.
 ###Example:
 
 ```javascript
-replace('Hello world', 'world', 'Lisa')
+bland.replace('Hello world', 'world', 'Lisa')
 //=> 'Hello Lisa'
 
-replace('aaaaab', 'aab', ' hi')
+bland.replace('aaaaab', 'aab', ' hi')
 //=> 'aaa hi'
 ```
