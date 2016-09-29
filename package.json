@@ -4,7 +4,7 @@
   "description": "Rewrite lodash library.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha dist/spec",
+    "test": "mocha --watch dist/spec",
     "build": "babel src --out-dir dist --copy-files",
     "build:watch": "npm run build -- -w"
   },
