@@ -10,10 +10,9 @@ export default ( arr ) => {
          newArray.push( j )
         }
       }
+    }
+    return newArray
   }
-
-  return newArray
- }
 
  return []
 }
