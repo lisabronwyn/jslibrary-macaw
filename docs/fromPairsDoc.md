@@ -1,16 +1,18 @@
 #FromPairs
 
-##fromPairs(array)
+##`javascriptfromPairs(array)`
 
-FromPairs takes an array of arrays and creates an Object based on those arrays.
+FromPairs takes an Array of key-value pairs and creates an Object based on those pairs.
+
 ###Arguments
-An Array of arrays with key-value pairs.
+
+An Array of Arrays with key-value pairs.
 
 ###Return
 
 An Object.
 
-Example:
+###Example:
 
 ```javascript
 fromPairs([['a',2],[5,"Muffins"]]
