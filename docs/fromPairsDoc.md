@@ -1,6 +1,6 @@
 #FromPairs
 
-##`javascriptfromPairs(array)`
+###`fromPairs(array)`
 
 FromPairs takes an Array of key-value pairs and creates an Object based on those pairs.
 

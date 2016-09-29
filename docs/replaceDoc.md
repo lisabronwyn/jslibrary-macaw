@@ -1,22 +1,25 @@
-#Replace
+##Replace
 
-##Function Description
 
-##replace(string, pattern, replacement)
+###`replace(string, pattern, replacement)`
 
-Looks for pattern in a given string and replaces it with a new string
+Looks for pattern in a given string and replaces it with a new string.
+
 ###Arguments
-A string
-A pattern to search for in the string
-A string to replace the pattern with
+string (String): The string to modify.
+pattern (String): A pattern to search for in the string
+replacement (String): A string to replace the pattern with
 
 ###Return
 
-It returns a string with a replaced value 
+(String): It returns a string with a replaced value
 
-Example:
+###Example:
 
 ```javascript
-replace('Hello wor world', 'world', 'Lisa')
-//=> 'Hello wor Lisa'
+replace('Hello world', 'world', 'Lisa')
+//=> 'Hello Lisa'
+
+replace('aaaaab', 'aab', ' hi')
+//=> 'aaa hi'
 ```
