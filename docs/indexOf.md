@@ -18,7 +18,7 @@ fromIndex = 0 (number) : An optional start index
 
 ```javascript
 bland.indexOf([2,4,8,9,4],4)
-// => 4
+// => 2
 
 bland.indexOf([2,4,8,9,4],4,2)
 // => 4
