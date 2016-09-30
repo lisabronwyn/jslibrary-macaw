@@ -7,10 +7,10 @@ describe('flatMap', () => {
   })
 
   it('Flatmap map over an array', () => {
-    expect( flatMap( { '1': 1, '2': 2, '3': 3 }, ( n ) => { return n , n  } ) ).to.eql( 'The Collection is not an Array' )
+    expect( flatMap( { '1': 1, '2': 2, '3': 3 }, ( n ) => { return [ n , n ] } ) ).to.eql( 'The Collection is not an Array' )
   })
 
   it('Flatmap map over an array', () => {
-    expect( flatMap( [], ( n ) => { return n , n  } ) ).to.eql( [] )
+    expect( flatMap( [], ( n ) => { return [ n , n ] } ) ).to.eql( [] )
   })
 })
