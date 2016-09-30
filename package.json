@@ -1,6 +1,6 @@
 {
   "name": "bland-macaw",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Rewrite lodash library.",
   "main": "index.js",
   "scripts": {
