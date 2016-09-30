@@ -27,6 +27,9 @@ The questions that this project will raise are:
 
 ---
 
+##Npm package
+https://www.npmjs.com/package/bland-macaw
+
 ##Reduce
 
 ###`reduce( array | object )`
